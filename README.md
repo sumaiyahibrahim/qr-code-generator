@@ -1,5 +1,9 @@
 # 🔳 QR Code Generator CLI
 
+[![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-green?logo=node.js)](https://nodejs.org/)
+[![Open Source](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![npm packages](https://img.shields.io/badge/npm-inquirer%20%7C%20qr--image-red)](https://www.npmjs.com/)
+
 A simple Node.js command-line tool that generates a QR code image from any URL entered by the user. It also saves the original URL to a text file for reference.
 
 ---
@@ -24,11 +28,12 @@ A simple Node.js command-line tool that generates a QR code image from any URL e
 ## 📂 Project Structure
 
 qr-code-generator/
-├── index.js # Main script
-├── package.json # Project config & dependencies
-├── URL.txt # Saved user URL (auto-created)
-├── qr_img.png # Generated QR image (auto-created)
-└── README.md # This file
+├── index.js            # Main script
+├── package.json        # Project config & dependencies
+├── URL.txt             # Saved user URL (auto-created)
+├── qr_img.png          # Generated QR image (auto-created)
+└── README.md           # This file
+
 
 
 ---
@@ -45,7 +50,6 @@ cd qr-code-generator
 bash
 Copy code
 npm install
-
 3. Run the app
 bash
 Copy code
@@ -54,16 +58,15 @@ Then type your URL when prompted, like:
 
 nginx
 Copy code
-Type in your URL: https://openai.com
+Type in your URL: https://www.udemy.com/
 
+## 📦 Packages Used
 
-📦 Packages Used
-Package	Description
-inquirer	Interactive command-line prompts
-qr-image	Generate QR code images in PNG/SVG
-fs	Node's built-in file system module
-
----
+| Package     | Description                          |
+|-------------|--------------------------------------|
+| `inquirer`  | Interactive command-line prompts     |
+| `qr-image`  | Generate QR code images in PNG/SVG   |
+| `fs`        | Node's built-in file system module   |
 
 📌 Output Files
 qr_img.png – QR code image for the entered URL
@@ -77,7 +80,6 @@ vbnet
 Copy code
 ✅ QR code saved as 'qr_img.png'
 📝 URL saved to 'URL.txt'
-
 🤝 Contributing
 If you'd like to improve this tool or add features (like custom file names or SVG support), feel free to fork it and send a pull request!
 
@@ -89,39 +91,6 @@ Support batch URL QR generation
 Add a web version using Express
 
 📄 License
-This project is open-source and free to use.
+This project is open-source and free to use under the MIT License.
 
-👩‍💻 Made by Sumaiyah Ibrahim
-A beginner-friendly project to build confidence with Node.js and CLI tools.
 
-Feel free to ⭐ this repo if you found it helpful!
-
-yaml
-Copy code
-
----
-
-### ✅ Final Step
-
-Now in VS Code:
-1. Right-click your project folder → **New File** → `README.md`
-2. Paste the full content above
-3. Save ✅
-4. Run these in terminal:
-
-```bash
-git add README.md
-git commit -m "Add README with full project details"
-git push
-
-### ✅ What You Should Do Now:
-
-1. Create a file in VS Code called `README.md`
-2. Paste the above content
-3. Edit the GitHub link (`https://github.com/YourUsername/...`) to your actual repo
-4. Commit it:
-
-```bash
-git add README.md
-git commit -m "Add custom project README"
-git push
