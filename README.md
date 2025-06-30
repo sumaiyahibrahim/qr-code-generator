@@ -26,34 +26,50 @@ qr-code-generator/
 ```
 ---
 
+## TL;DR
+- Use **npm** when you want to _install_ and _reuse_.
+- Use **npx** when you just want to _run and forget_.
+---
+
+### ✅ Use `npx` when you just want to _run and forget_:
+
+- No installation required
+- Always runs the latest version
+- Great for quick, one-time use
+
+```bash
+npx qr-from-url
+```
+---
+
 ##  🛠️ Installation & Usage
 
-### 1. Clone the repository
+### 1. Install globally
 ```bash
-git clone https://github.com/sumaiyahibrahim/qr-code-generator.git
-cd qr-code-generator
+npm install -g qr-from-url
+
 ```
 
-### 2. Install dependencies
+Now run the CLI with:
 ```bash
-npm install
+qr-from-url
 ```
-
-### 3. Run the app
+### 2. Try instantly without installing
 ```bash
-node index.js
+npx qr-from-url
 ```
-
-### You will be prompted to enter a URL:
-```text
-Type in your URL: https://www.openai.com
+### 💡 How it works
+Upon running, you'll be prompted:
+```bash
+Type in your URL: https://open.spotify.com
 ```
-
-The following files will be generated:
-
+Output includes:
+```bash
 - `qr_img.png`: QR image for the entered URL
 - `URL.txt`: Plain text file containing the entered URL
----
+```
+
+
 
 ### 📦 Packages Used
 
@@ -71,22 +87,40 @@ The following files will be generated:
 ```
 ---
 
+### 📌 Notes
+## Notes
+
+- To prevent output files from being tracked in Git, you can create a `.gitignore`:
+```bash
+URL.txt
+qr_img.png
+node_modules/
+```
+- The terminal prompt and file names are customizable in `index.js`.
+---
+## 🤝 Contributing
+
+Loved this project?
+
+Want new features or improvements? Feel free to **fork** the repo or send a **pull request**. I'm happy to collaborate!
+---
+## 🔗 Links & References
+
+- **npm:** [qr-from-url](https://www.npmjs.com/package/qr-from-url)  
+- **GitHub:** [github.com/sumaiyahibrahim/qr-code-generator](https://github.com/sumaiyahibrahim/qr-code-generator)
+---
 ### 📜 License
+### ✅ How to Add This to GitHub:
 
-### ✅ What to Do Next
-
-1. **Create a file:** `README.md` in your project folder  
-2. **Paste the entire content above** into that file  
-3. Save it  
-4. Run this in terminal:
+1. Replace your current `README.md` with the **exact content above**.
+2. Save it.
+3. Run the following in your terminal:
 
 ```bash
 git add README.md
-git commit -m "Add professional README"
+git commit -m "Update README with npm installation info and badges"
 git push
 ```
 ---
-### 👩‍💻 Author
-
 **Sumaiyah Ibrahim**  
 A simple CLI project to practice Node.js and build confidence using real-world tools.
