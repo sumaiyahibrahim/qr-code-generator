@@ -12,7 +12,7 @@ A simple Node.js command-line tool that generates a QR code image from any URL e
 
 - ✨ User-friendly command-line prompt using **Inquirer**
 - 📷 Generates a QR code image using **qr-image**
-- 💾 Saves the URL to a `.txt` file
+- 💾 Saves the URL to a `.txt` file 
 - 🔧 Built with modern **ES Modules** and clean JavaScript
 
 ---
