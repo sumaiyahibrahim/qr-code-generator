@@ -86,6 +86,7 @@ git commit -m "Add professional README"
 git push
 ```
 
-###👩‍💻 Author
-Sumaiyah Ibrahim
-💖 A simple CLI project to practice Node.js and build confidence with real-world tools.
+### 👩‍💻 Author
+
+**Sumaiyah Ibrahim**  
+A simple CLI project to practice Node.js and build confidence using real-world tools.
