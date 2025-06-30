@@ -1,19 +1,16 @@
 # 🔳 QR Code Generator CLI
 
-[![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-green?logo=node.js)](https://nodejs.org/)
-[![Open Source](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![npm packages](https://img.shields.io/badge/npm-inquirer%20%7C%20qr--image-red)](https://www.npmjs.com/)
-
-A simple Node.js command-line tool that generates a QR code image from any URL entered by the user. It also saves the original URL to a text file for reference.
+A simple and beginner-friendly Node.js command-line application that generates a QR code image from any URL you enter. It also saves the original URL to a `.txt` file.
 
 ---
 
 ## 🚀 Features
 
-- ✨ User-friendly command-line prompt using **Inquirer**
-- 📷 Generates a QR code image using **qr-image**
-- 💾 Saves the URL to a `.txt` file 
-- 🔧 Built with modern **ES Modules** and clean JavaScript
+- ✨ Command-line input using [Inquirer](https://www.npmjs.com/package/inquirer)
+- 📷 QR code generation with [qr-image](https://www.npmjs.com/package/qr-image)
+- 💾 Saves the QR code image and the original URL
+- 📦 Lightweight and easy to use
+- ✅ Built with ES Modules and clean code
 
 ---
 
@@ -29,74 +26,63 @@ qr-code-generator/
 ```
 ---
 
-## 🛠️ Installation & Usage
+##  🛠️ Installation & Usage
 
-### 1. Clone the repository
-
+###1. Clone the repository
 ```bash
-git clone https://github.com/YourUsername/qr-code-generator.git
+git clone https://github.com/sumaiyahibrahim/qr-code-generator.git
 cd qr-code-generator
-
 ```
-### 2. Install dependencies
 
+###2. Install dependencies
 ```bash
 npm install
 ```
-### 3. Run the app
+
+###3. Run the app
 ```bash
 node index.js
 ```
 
+###You will be prompted to enter a URL:
+```text
+Type in your URL: https://www.openai.com
+```
+
+The following files will be generated:
+
+- `qr_img.png`: QR image for the entered URL
+- `URL.txt`: Plain text file containing the entered URL
 ---
 
-### 🔧 How to Use This:
+### 📦 Packages Used
 
-1. **Remove** any `Copy code`, `bash`, or indentation before triple backticks.
-2. Paste the clean block above directly in your `README.md`.
-3. Save and push using:
-```
-```bash
-git add README.md
-git commit -m "Fix code block formatting"
-git push
+| Package   | Description                                      |
+|-----------|--------------------------------------------------|
+| `inquirer`  | Interactive command-line prompts               |
+| `qr-image`  | Generate QR code images in PNG/SVG             |
+| `fs`        | Node.js built-in file system module            |
 
-```
-## 📦 Packages Used
 
-| Package     | Description                          |
-|-------------|--------------------------------------|
-| `inquirer`  | Interactive command-line prompts     |
-| `qr-image`  | Generate QR code images in PNG/SVG   |
-| `fs`        | Node's built-in file system module   |
-```
-📌 Output Files
-qr_img.png – QR code image for the entered URL
-
-URL.txt – Plain text version of the URL you entered
-
-You can add .gitignore to exclude these from your Git repo.
-```
----
-📥 Example Output
-vbnet
-Copy code
+### 📄 Example Output
+```text
 ✅ QR code saved as 'qr_img.png'
 📝 URL saved to 'URL.txt'
 ```
 ---
-🤝 Contributing
-If you'd like to improve this tool or add features (like custom file names or SVG support), feel free to fork it and send a pull request!
-```
+
+### 📜 License
+
 ---
-💡 Future Ideas
-Let user choose image format (PNG/SVG)
 
-Support batch URL QR generation
+### ✅ What to Do Next
 
-Add a web version using Express
+1. **Create a file:** `README.md` in your project folder  
+2. **Paste the entire content above** into that file  
+3. Save it  
+4. Run this in terminal:
 
-📄 License
-This project is open-source and free to use under the MIT License.
-
-
+```bash
+git add README.md
+git commit -m "Add professional README"
+git push
