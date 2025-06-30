@@ -42,12 +42,11 @@ npx qr-from-url
 ```
 ---
 
-##  🛠️ Installation & Usage
+##  ✅ Use npm when you want to install and reuse: ( Installation & Usage )
 
 ### 1. Install globally
 ```bash
 npm install -g qr-from-url
-
 ```
 
 Now run the CLI with:
@@ -63,10 +62,10 @@ Upon running, you'll be prompted:
 ```bash
 Type in your URL: https://open.spotify.com
 ```
-Output includes:
-```bash
-- `qr_img.png`: QR image for the entered URL
-- `URL.txt`: Plain text file containing the entered URL
+###  Example Output
+```text
+- QR code saved as 'qr_img.png'
+- URL saved to 'URL.txt'
 ```
 
 
@@ -80,16 +79,10 @@ Output includes:
 | `fs`        | Node.js built-in file system module            |
 
 
-### 📄 Example Output
-```text
-✅ QR code saved as 'qr_img.png'
-📝 URL saved to 'URL.txt'
-```
+
 ---
 
-### 📌 Notes
-## Notes
-
+## 📌 Notes
 - To prevent output files from being tracked in Git, you can create a `.gitignore`:
 ```bash
 URL.txt
@@ -103,7 +96,7 @@ node_modules/
 Loved this project?
 
 Want new features or improvements? Feel free to **fork** the repo or send a **pull request**. I'm happy to collaborate!
----
+
 ## 🔗 Links & References
 
 - **npm:** [qr-from-url](https://www.npmjs.com/package/qr-from-url)  
