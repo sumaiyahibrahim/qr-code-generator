@@ -17,14 +17,6 @@ A simple Node.js command-line tool that generates a QR code image from any URL e
 
 ---
 
-## 📸 Demo
-
-> After you run the program, it generates a file like this:
-
-![QR Code Preview](./qr_img.png)
-
----
-
 ## 📂 Project Structure
 
 qr-code-generator/
@@ -42,23 +34,23 @@ qr-code-generator/
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/YourUsername/qr-code-generator.git
-cd qr-code-generator
+    ```bash
+    git clone https://github.com/YourUsername/qr-code-generator.git
+    cd qr-code-generator
 
 2. Install dependencies
-bash
-Copy code
-npm install
+   ```bash
+   Copy code
+   npm install
 3. Run the app
-bash
-Copy code
-node index.js
+   ```bash
+   Copy code
+   node index.js
+   
 Then type your URL when prompted, like:
-
-nginx
-Copy code
-Type in your URL: https://www.udemy.com/
+    ```text
+     Copy code
+     Type in your URL: https://www.udemy.com/
 
 ## 📦 Packages Used
 
