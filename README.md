@@ -26,7 +26,7 @@ qr-code-generator/
 ├── URL.txt             # Saved user URL (auto-created)
 ├── qr_img.png          # Generated QR image (auto-created)
 └── README.md           # This file
-
+```
 ---
 
 ## 🛠️ Installation & Usage
