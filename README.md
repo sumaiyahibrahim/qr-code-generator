@@ -27,32 +27,40 @@ qr-code-generator/
 ├── qr_img.png          # Generated QR image (auto-created)
 └── README.md           # This file
 
-
-
-
 ---
 
 ## 🛠️ Installation & Usage
 
 ### 1. Clone the repository
 
-    ```bash
-    git clone https://github.com/YourUsername/qr-code-generator.git
-    cd qr-code-generator
+```bash
+git clone https://github.com/YourUsername/qr-code-generator.git
+cd qr-code-generator
 
-2. Install dependencies
-   ```bash
-   Copy code
-   npm install
-3. Run the app
-   ```bash
-   Copy code
-   node index.js
-   
-Then type your URL when prompted, like:
-    ```text
-     Copy code
-     Type in your URL: https://www.udemy.com/
+
+### 2. Install dependencies
+
+```bash
+npm install
+
+### 3. Run the app
+```bash
+node index.js
+
+
+---
+
+### 🔧 How to Use This:
+
+1. **Remove** any `Copy code`, `bash`, or indentation before triple backticks.
+2. Paste the clean block above directly in your `README.md`.
+3. Save and push using:
+
+```bash
+git add README.md
+git commit -m "Fix code block formatting"
+git push
+
 
 ## 📦 Packages Used
 
