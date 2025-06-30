@@ -28,23 +28,23 @@ qr-code-generator/
 
 ##  🛠️ Installation & Usage
 
-###1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/sumaiyahibrahim/qr-code-generator.git
 cd qr-code-generator
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-###3. Run the app
+### 3. Run the app
 ```bash
 node index.js
 ```
 
-###You will be prompted to enter a URL:
+### You will be prompted to enter a URL:
 ```text
 Type in your URL: https://www.openai.com
 ```
