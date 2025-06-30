@@ -19,12 +19,14 @@ A simple Node.js command-line tool that generates a QR code image from any URL e
 
 ## 📂 Project Structure
 
+```text
 qr-code-generator/
 ├── index.js            # Main script
 ├── package.json        # Project config & dependencies
 ├── URL.txt             # Saved user URL (auto-created)
 ├── qr_img.png          # Generated QR image (auto-created)
 └── README.md           # This file
+
 
 
 
