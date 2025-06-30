@@ -37,16 +37,16 @@ qr-code-generator/
 git clone https://github.com/YourUsername/qr-code-generator.git
 cd qr-code-generator
 
-
+```
 ### 2. Install dependencies
 
 ```bash
 npm install
-
+```
 ### 3. Run the app
 ```bash
 node index.js
-
+```
 
 ---
 
@@ -55,13 +55,13 @@ node index.js
 1. **Remove** any `Copy code`, `bash`, or indentation before triple backticks.
 2. Paste the clean block above directly in your `README.md`.
 3. Save and push using:
-
+```
 ```bash
 git add README.md
 git commit -m "Fix code block formatting"
 git push
 
-
+```
 ## 📦 Packages Used
 
 | Package     | Description                          |
@@ -69,22 +69,26 @@ git push
 | `inquirer`  | Interactive command-line prompts     |
 | `qr-image`  | Generate QR code images in PNG/SVG   |
 | `fs`        | Node's built-in file system module   |
-
+```
 📌 Output Files
 qr_img.png – QR code image for the entered URL
 
 URL.txt – Plain text version of the URL you entered
 
 You can add .gitignore to exclude these from your Git repo.
-
+```
+---
 📥 Example Output
 vbnet
 Copy code
 ✅ QR code saved as 'qr_img.png'
 📝 URL saved to 'URL.txt'
+```
+---
 🤝 Contributing
 If you'd like to improve this tool or add features (like custom file names or SVG support), feel free to fork it and send a pull request!
-
+```
+---
 💡 Future Ideas
 Let user choose image format (PNG/SVG)
 
