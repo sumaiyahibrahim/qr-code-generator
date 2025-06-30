@@ -73,8 +73,6 @@ The following files will be generated:
 
 ### 📜 License
 
----
-
 ### ✅ What to Do Next
 
 1. **Create a file:** `README.md` in your project folder  
@@ -86,3 +84,8 @@ The following files will be generated:
 git add README.md
 git commit -m "Add professional README"
 git push
+```
+
+###👩‍💻 Author
+Sumaiyah Ibrahim
+💖 A simple CLI project to practice Node.js and build confidence with real-world tools.
