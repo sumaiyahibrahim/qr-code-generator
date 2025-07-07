@@ -1,18 +1,22 @@
 {
-  "name": "my-node-project",
-  "version": "1.0.0",
+  "name": "qr-from-url",
+  "version": "1.0.1",
+  "description": "Generate a QR code from a URL using Node.js CLI",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["qr", "url", "cli", "qr-code", "nodejs"],
+  "author": "Sumaiyah Ibrahim (https://github.com/sumaiyahibrahim)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumaiyahibrahim/qr-code-generator"
+  },
   "dependencies": {
     "inquirer": "^12.6.3",
     "qr-image": "^3.2.0"
   },
-  "devDependencies": {},
-  "description": ""
+  "devDependencies": {}
 }
