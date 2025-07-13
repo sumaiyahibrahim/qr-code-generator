@@ -10,7 +10,7 @@ A simple and beginner-friendly Node.js command-line application that generates a
 - 📷 QR code generation with [qr-image](https://www.npmjs.com/package/qr-image)
 - 💾 Saves the QR code image and the original URL          
 - 📦 Lightweight and easy to use
-- ✅ Built with ES Modules and clean code
+- ✅ Built with ES Modules and clean code 
 
 ---
 
