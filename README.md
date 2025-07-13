@@ -15,7 +15,7 @@ A simple and beginner-friendly Node.js command-line application that generates a
 ---
 
 ## 📂 Project Structure
-
+ 
 ```text
 qr-code-generator/
 ├── index.js            # Main script
